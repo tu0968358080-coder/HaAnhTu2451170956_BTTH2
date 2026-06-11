@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hà Anh Tú</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link 3 file CSS theo đúng cấu trúc thư mục trong ảnh image_657d1c.png -->
+    <link rel="stylesheet" href="css/custom_theme.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/comments.css">
+</head>
+<body>
+
+    <!-- Header (Giữ nguyên như index.html để đồng bộ) -->
+    <header class="container mt-5">
+        <div class="row align-items-start">
+            <div class="col-md-7">
+                <h1 class="main-title">Hà Anh Tú | Sinh viên TLU</h1>
+            </div>
+            <div class="col-md-5">
+                <nav class="nav justify-content-end top-nav">
+                    <a class="nav-link" href="index.html">Hà Anh Tú</a>
+                    <a class="nav-link active" href="blog.html">CV and Publications</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <hr class="container my-4">
+
+    <!-- Blog / Publications Content -->
+    <main class="container py-4">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title mb-5">Selected Publications</h2>
+                
+                <!-- Bài viết 1 -->
+                <div class="publication-item mb-5">
+                    <h5 class="fw-bold mb-1">Sinh viên đại học Thuỷ Lợi</h5>
+                    <p class="text-muted mb-2">Anh Tú <em>Khoa CNTT</em></p>
+                    <p class="about-content"></p>
+                    <a href="#" class="btn btn-sm btn-outline-primary">Download PDF</a>
+                    <a href="#" class="btn btn-sm btn-link text-dark">Abstract</a>
+                </div>
+
+                <!-- Bài viết 2 -->
+                <div class="publication-item mb-5">
+                    <h5 class="fw-bold mb-1">Lập trình Wins</h5>
+                    <p class="text-muted mb-2">Hà Anh Tú. <em>KTPM1.</em></p>
+                    <p class="about-content"></p>
+                    <a href="#" class="btn btn-sm btn-outline-primary">Read Online</a>
+                </div>
+
+                <!-- Section Comment (Sử dụng CSS từ comments.css) -->
+                <section class="comment-section mt-5 pt-5 border-top">
+                    <h4 class="mb-4">Leave a Discussion</h4>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="3" placeholder="Write your thoughts..."></textarea>
+                    </div>
+                    <button class="btn btn-dark">Post Comment</button>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container py-5 text-center text-muted">
+        <small>© 2026 Hà Anh Tú \ TLU </small>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.contact-form {
+    border-top: 3px solid #333; /* Tạo điểm nhấn ở đầu form */
+}
+
+.contact-form .form-control {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd !important; /* Chỉ để lại đường kẻ dưới */
+    padding: 12px 0;
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #007bff !important;
+}
+
+.contact-info strong {
+    display: inline-block;
+    width: 80px;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,22 @@
+.section-title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.profile-img-container {
+    padding: 20px;
+}
+
+.profile-img-container img {
+    width: 280px; /* Kích thước ảnh theo tỷ lệ hình mẫu */
+    height: 280px;
+    object-fit: cover;
+    border: 5px solid white; /* Tạo viền trắng mỏng nếu muốn */
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+}

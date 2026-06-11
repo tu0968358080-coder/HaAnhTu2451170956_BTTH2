@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+.main-title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #222;
+}
+
+.sub-intro {
+    font-size: 0.95rem;
+    max-width: 500px;
+}
+
+.top-nav .nav-link {
+    color: #333;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem;
+}
+
+.top-nav .nav-link.active {
+    color: #007bff; /* Màu xanh giống trong hình */
+}
+
+hr.container {
+    border-top: 1px solid #eee;
+    opacity: 1;
+}

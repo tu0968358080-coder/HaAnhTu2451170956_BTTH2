@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Hà Anh Tú</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Kết nối các file CSS theo cấu trúc thư mục trong ảnh image_657d1c.png -->
+    <link rel="stylesheet" href="css/custom_theme.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/comments.css">
+</head>
+<body>
+
+    <!-- Header (Đồng bộ với index và blog) -->
+    <header class="container mt-5">
+        <div class="row align-items-start">
+            <div class="col-md-7">
+                <h1 class="main-title">Hà Anh Tú | Sinh Viên TLU</h1>
+            </div>
+            <div class="col-md-5">
+                <nav class="nav justify-content-end top-nav">
+                    <a class="nav-link" href="index.html">Hà Anh Tú</a>
+                    <a class="nav-link" href="blog.html">CV and Publications</a>
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <hr class="container my-4">
+
+    <!-- Contact Content -->
+    <main class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="section-title mb-4">Get in Touch</h2>
+                <p class="about-content mb-5">
+                </p>
+
+                <form action="#" method="post" class="contact-form shadow-sm p-4 bg-light">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label fw-bold small text-uppercase">Name</label>
+                            <input type="text" class="form-control border-0 rounded-0" id="name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label fw-bold small text-uppercase">Email</label>
+                            <input type="email" class="form-control border-0 rounded-0" id="email" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="subject" class="form-label fw-bold small text-uppercase">Subject</label>
+                            <input type="text" class="form-control border-0 rounded-0" id="subject">
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label fw-bold small text-uppercase">Message</label>
+                            <textarea class="form-control border-0 rounded-0" id="message" rows="5" required></textarea>
+                        </div>
+                        <div class="col-12 text-end">
+                            <button type="submit" class="btn btn-dark px-5 rounded-0 text-uppercase">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </main>
+
+    <footer class="container py-5 text-center text-muted border-top mt-5">
+        <small>© 2026 Hà Anh Tú | Sinh Viên TLU</small>
+    </footer>
+</body>
+</html>
